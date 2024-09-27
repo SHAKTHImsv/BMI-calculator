@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(to right, green, yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+}
+
+.container {
+    background-image: linear-gradient(to right, green, yellow);
+    padding: 20px;
+    display: grid;
+    border-radius: 20px;
+    backdrop-filter: blur(10px); 
+    width: 400px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+#height, #weight {
+    width: 80%;
+    border: none;
+    background: transparent;
+    color: black;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+#lab {
+    margin-top: 20px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+button {
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    cursor: pointer; /* Change cursor on hover */
+}
+
+#result {
+    text-align: center; 
+    font-size: 20px;
+    margin-top: 20px;
+    color: black; 
+}
